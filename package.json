@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "qr-tracker",
+  "description": "App that lets you compare a QR code to see if it is available and marks it unavailable if it is",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atcriteria/qr-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atcriteria/qr-tracker/issues"
+  },
+  "homepage": "https://github.com/atcriteria/qr-tracker#readme"
+}
